@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.testing.TestScripts.GetRequestWithQueryParameter"/>
+      <class name="org.testing.TestScripts.PostRequestTC"/>
+      <class name="org.testing.TestScripts.DeleteRequestTC"/>
+      <class name="org.testing.TestScripts.PatchRequestTC"/>
+      <class name="org.testng.Runner.RunnerClass"/>
+      <class name="org.testing.TestScripts.PutRequestTC"/>
+      <class name="org.testing.TestScripts.GetRequestTC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
